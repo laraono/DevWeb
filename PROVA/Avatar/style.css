@@ -1,0 +1,26 @@
+.container1,
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.container2 {
+  background-color: brown;
+}
+.container1 {
+  padding: 20px 0 20px 0;
+  background-color: gray;
+}
+.fotoPerfil {
+  width: 250px;
+  height: 200px;
+  border-radius: 100%;
+  border: 2px solid darkgray;
+}
+.imagem {
+  margin: 20px;
+  width: 250px;
+  height: 200px;
+  border: 2px solid black;
+}

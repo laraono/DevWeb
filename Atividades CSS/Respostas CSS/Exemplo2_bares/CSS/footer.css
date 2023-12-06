@@ -1,0 +1,10 @@
+/* Exercício : Use 'top'/'left'/'right'/'bottom' para mover o elemento e criar um footer */
+.footer
+{
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    
+    /* Como diminuir o tamanho do footer ? */
+    top: 500px;
+}

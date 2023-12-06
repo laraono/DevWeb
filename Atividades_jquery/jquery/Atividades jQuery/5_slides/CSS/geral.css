@@ -1,0 +1,30 @@
+.botoes {
+    position: fixed;
+    margin-top: 250px;
+    margin-left: 500px;
+}
+
+.imagem {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+    height: 300px;
+    margin-left: 400px;
+    border: solid;
+    border-width: 1px;
+}
+
+.UFPR {
+    width: 1350px;
+    height: 150px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: lightblue;
+    display: none;
+}

@@ -1,0 +1,23 @@
+body {
+  width: 40%;
+  position: absolute;
+  left: 24%;
+}
+
+.content {
+  display: grid;
+  justify-content: center;
+}
+h1 {
+  border: 2px dotted black;
+  background-color: lightblue;
+}
+
+#gerado {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: justify;
+}

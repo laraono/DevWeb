@@ -1,0 +1,32 @@
+.tamanho
+{
+    width: 400px;
+    height: 200px;
+}
+
+.porcentagem
+{
+    width: 30%;
+
+    /* Casos de uso para tamanho com porcentagem: Quando você quer que uma imagem ocupe um determinado espaço 
+    dentro de um container */
+}
+
+.borda
+{
+    /* comando para criar bordas */
+    border-radius: 10px;
+
+    width: 400px;
+    height: 200px;
+}
+
+.bolinha
+{
+    /* Deixar a imagem quadrada */
+    width: 200px;
+    height: 200px;
+
+    /* Usar um valor que deixe no formato esférico */
+    border-radius: 100px;
+}

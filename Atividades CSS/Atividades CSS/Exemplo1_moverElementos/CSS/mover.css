@@ -1,0 +1,19 @@
+/* Exercício 1 : Usar 'margin' para mover os elementos para as devidas posições */
+/* Exercício 2 : Usar 'padding' para alterar os tamanhos dos elementos */
+/* Exercício 3 : Usar 'background-color' para trocar a cor dos elementos */
+
+.cima {
+  margin-left: 50%;
+  background-color: greenyellow;
+}
+
+.baixo {
+  margin-left: 50%;
+  margin-top: 80%;
+}
+
+.esquerda {
+}
+
+.direita {
+}

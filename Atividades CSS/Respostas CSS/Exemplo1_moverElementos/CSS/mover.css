@@ -1,0 +1,48 @@
+/* Exercício 1 : Usar 'margin' para mover os elementos para as devidas posições */
+/* Exercício 2 : Usar 'padding' para alterar os tamanhos dos elementos */
+/* Exercício 3 : Troque a cor dos elementos */
+.cima
+{
+    margin-left: 600px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    background-color: brown;
+}
+
+.baixo
+{
+    margin-top: 550px;
+    margin-left: 600px;
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    background-color: aqua;
+}
+
+.esquerda
+{
+    margin-top: 250px;
+
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+
+    background-color: aquamarine;
+}
+
+.direita
+{
+    margin-top: 250px;
+    margin-left: 1250px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+    background-color: chartreuse;
+}

@@ -1,0 +1,13 @@
+/* Exercício : Use 'top'/'left'/'right'/'bottom' para mover o elemento e criar uma sidebar */
+.sidebar
+{
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    /* Como aumentar o tamanho da sidebar ? */
+    padding-right: 60px;
+
+    /* Como mostrar a parte da topbar que ficou escondida ? */
+    margin-top: 100px;
+}

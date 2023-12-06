@@ -1,0 +1,17 @@
+div
+{
+    background-color: lightblue;
+
+    /* Alterar o tamanho dos elementos */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* Possibitar 'travar' um elemento para que ele continue na tela mesmo após dar scroll */
+    position: fixed;
+
+    /* Colocar os elementos no meio da tela para facilitar a realização do exercício */
+    top: 250px;
+    left: 600px;
+}

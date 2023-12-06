@@ -1,0 +1,83 @@
+.primeiro
+{
+    /* Ativar o flexbox: */
+    display: flex;
+    flex-direction: row;
+}
+
+.segundo
+{
+    margin-top: 20px;
+
+    /* Ativar o flexbox: */
+    display: flex;
+    flex-direction: row;
+}
+
+.segundoDiv1
+{
+    background-color: lightblue;
+    width: 100px;
+}
+
+.segundoDiv2
+{
+    background-color: lightpink;
+    flex: 1;
+}
+
+.terceiro
+{
+    margin-top: 20px;
+
+    /* Ativar o flexbox: */
+    display: flex;
+    flex-direction: row;
+}
+
+.terceiroDiv1
+{
+    background-color: lightblue;
+    flex: 2;
+}
+
+.terceiroDiv2
+{
+    background-color: lightpink;
+    flex: 1;
+}
+
+.terceiroDiv3
+{
+    background-color: lightblue;
+    width: 100px;
+}
+
+.quarto
+{
+    margin-top: 30px;
+    
+    /* Ativar o flexbox: */
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.quartoDiv1
+{
+    background-color: lightblue;
+    width: 100px;
+}
+
+.quartoDiv2
+{
+    background-color: lightpink;
+    width: 100px;
+}
+
+.quartoDiv3
+{
+    background-color: lightblue;
+    width: 100px;
+}

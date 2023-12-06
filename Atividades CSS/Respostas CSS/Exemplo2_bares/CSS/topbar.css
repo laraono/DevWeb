@@ -1,0 +1,10 @@
+/* Exercício : Use 'top'/'left'/'right'/'bottom' para mover o elemento e criar uma topbar */
+.topbar
+{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    /* Como aumentar o tamanho da topbar ? */
+    padding-bottom: 60px;
+}

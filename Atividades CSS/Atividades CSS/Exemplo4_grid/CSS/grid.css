@@ -1,0 +1,48 @@
+.primeiro
+{
+    /* Deixar os elementos na mesma linha divididos por colunas */
+    display: grid;
+    grid-template-columns: 100px 100px; /* Tamanho de cada coluna */
+}
+
+.segundo
+{
+    margin-top: 20px;
+
+    /* Deixar os elementos na mesma linha divididos por colunas */
+    display: grid;
+    grid-template-columns: 100px 200px 300px; /* Tamanho de cada coluna */
+    /* Note que não informamos uma quarta coluna e, portanto, o 'div 4 (100px)' foi jogado para baixo */
+}
+
+.terceiro
+{
+    margin-top: 20px;
+
+    /* Deixar os elementos na mesma linha divididos por colunas */
+    display: grid;
+    grid-template-columns: 100px 1fr; /* Tamanho de cada coluna ('fr' indica que a coluna pode ocupar o
+    espaço restante da linha) */
+}
+
+.quarto
+{
+    margin-top: 20px;
+
+    /* Deixar os elementos na mesma linha divididos por colunas */
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr; /* Tamanho de cada coluna */
+}
+
+.quinto
+{
+    margin-top: 20px;
+
+    /* Deixar os elementos na mesma linha divididos por colunas */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Tamanho de cada coluna */
+
+    /* 'gap' é o espaço entre os elementos (column=coluna | row=linha) */
+    column-gap: 20px;
+    row-gap: 20px;
+}

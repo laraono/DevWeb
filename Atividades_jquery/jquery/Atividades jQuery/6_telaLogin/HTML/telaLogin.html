@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tela de Login</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="../CSS/geral.css">
+    </head>
+
+    <body>
+        <!-- Cor de fundo -->
+        <section class="section">
+            <!-- Container com os elementos -->
+            <div class="container" id="container">
+                <h1 class="titulo" id="titulo">LOGIN</h1>
+                
+                <!-- Por que um div e não o input direto ? Para que os inputs não fiquem na mesma linha -->
+                <div class="input">
+                    <input type="text" class="user" id="user" placeholder="User" required>
+                </div>
+    
+                <div class="input">
+                    <input type="password" class="password" id="password" placeholder="Password" required>
+                </div>
+                
+                <!-- Mensagem que informa se o nome e senha estão corretos. Começa vazio -->
+                <p class="acerto" id="acerto">&nbsp;</p>
+    
+                <button class="botao" id="botao">SUBMIT</button>
+            </div>
+        </section>
+
+        <script src="../JavaScript/telaLogin.js"></script>
+    </body>
+</html>

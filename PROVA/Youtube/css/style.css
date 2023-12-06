@@ -1,0 +1,37 @@
+#search {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 1px solid gray;
+  height: 25px;
+}
+
+.nav-right {
+  position: fixed;
+  right: 10px;
+  padding: 5px;
+}
+.nav-left {
+  position: fixed;
+  left: 0;
+  padding: 5px;
+}
+.nav-center {
+  position: fixed;
+  left: 30%;
+}
+.nav-icon {
+  height: 25px;
+  margin-left: 15px;
+}
+
+.content {
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+
+#video-icons {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}

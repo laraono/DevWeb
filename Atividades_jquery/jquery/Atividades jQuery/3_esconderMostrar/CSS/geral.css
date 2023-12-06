@@ -1,0 +1,19 @@
+button {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.topbar {
+    background-color: lightblue;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 50px;
+}
+
+.imagem {
+    display: none;
+}
